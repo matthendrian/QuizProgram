@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript" href="quiz.js"></script>
+    <link rel="stylesheet" href="HWExpo.css">
+<title>Hendrian Coding Quiz HW</title>
+</head>
+<body>
+<div>
+    <h1>Javascript Coding Quiz!</h1>
+    <button class="start-button">Start</button>
+</div>
+
+<div class= "card timer">
+  <div class = "timer-text">
+  <div class="large-font timer-count">60</div>
+  <h3>seconds remaining</h3>
+   </div>
+</div>
+
+<div class = "Score Container">
+  <div>
+  <h2>Current Score: <span class="CurrentScore">0 </span> </h2>
+</div>
+
+<div class="questions">
+    <p>1. What is the name of the ";" symbol in javascript syntax?</p>
+    <form class="options">
+        <input class="option" type="radio" name="question1" value=wrong> Hyphen<br>
+        <input class="option" type="radio" name="question1" value=wrong>Comma<br>
+        <input class="option" type="radio" name="question1" value=wrong>Colon<br>
+        <input class="option" type="radio" name="question1" value=4 id="correct1">semi-colon</br>
+        <div id="result"></div>
+    </form>
+</div>
+<div class="questions">
+    <p>2. Who is the class instructor of the 6:30-9:30 sessions on Tues/Thurs, and the 10am-2pm saturday session?</p>
+    <form class="options">
+        <input class="option" type="radio" name="question2" value=4>Michael<br>
+        <input class="option" type="radio" name="question2" value=3>Alex<br>
+        <input class="option" type="radio" name="question2" value=2 id="correct2">Mish<br>
+        <input class="option" type="radio" name="question2" value=1>Gabe<br>
+    </form>
+</div>
+<div class="questions">
+    <p>3. What method returns the length of a string?</p>
+    <form class="options">
+        <input class="option" type="radio" name="question3" value=4 id="correct3">.length()<br>
+        <input class="option" type="radio" name="question3" value=3>.size()<br>
+        <input class="option" type="radio" name="question3" value=2>.hide<br>
+        <input class="option" type="radio" name="question3" value=1>.add<br>
+    </form>
+</div>
+<div class="questions">
+    <p>4. What is the suggested resource for seeking help? </p>
+    <form>
+        <input class="option" type="radio" name="question4" value=4>None, figure it out alone.<br>
+        <input class="option" type="radio" name="question4" value=3>Ask an online bot<br>
+        <input class="option" type="radio" name="question4" value=2 id="correct4">MDN documentation, Jquery Documentation, BCS Help, and/or study groups.<br>
+        <input class="option" type="radio" name="question4" value=1>Wait until class to ask<br>
+    </form>
+</div>
+<div class="questions">
+    <p>5. How long is the part-time full stack program?</p>
+    <form>
+        <input class="option" type="radio" name="question5" value=4>6 weeks<br>
+        <input class="option" type="radio" name="question5" value=3 id="correct5">24 weeks<br>
+        <input class="option" type="radio" name="question5" value=2>1 year<br>
+        <input class="option" type="radio" name="question5" value=1>46 weeks<br>
+    </form>
+</div>
+<div class = "LeaderBoard">
+    <div>
+    <h2>Leaderboard: <span class="MyScore"> </span> </h2>
+  </div>
+<div class="EndGame"> 
+  <form>
+    <label for="fname">Enter your initials:</label><br>
+    <input type="text" id="initials" name="fname"><br>
+  </form>
+</div>
+    <br>
+    <input type="button" id='next' value="Submit" class="button" >
+    <div id="output">
+        <div class = "Score Container">
+  <div>
+</div>
+    </div>
+  <script src="HendrianHW4.js"></script>
+  <script src="HendrianHW4.js"></script>
+</body>
+</html>
